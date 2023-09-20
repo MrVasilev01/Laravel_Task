@@ -145,6 +145,21 @@ $(document).ready(function () {
         });
 
 
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+        });
+        var swiper = new Swiper(".mySwiper-2", {
+            slidesPerView: 1,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+
     }else{
         tl.from("#hgl-1", {
             y: -50,
@@ -224,5 +239,24 @@ $(document).ready(function () {
         $serv_2.mouseenter(function(){
             tl_4.play();
         })
+
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 18,
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+          });
+
+        var swiper = new Swiper(".mySwiper-2", {
+            slidesPerView: 3,
+            spaceBetween: 18,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+          });
     }
+
 });

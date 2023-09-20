@@ -202,7 +202,7 @@ body {
   width: 396px;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0) 16%, rgb(32, 45, 57) 40%);
 }
-.navbar .rectangle .btn {
+.navbar .rectangle .btn-2 {
   z-index: 2;
   top: 50%;
   right: 5.6%;
@@ -449,14 +449,20 @@ body {
   gap: 32px;
   overflow: hidden;
 }
-.parts .spec-parts .parts-ul li {
+.parts .spec-parts li {
   list-style-type: none;
+  gap: 3px;
 }
-.parts .spec-parts .parts-ul li img {
+.parts .spec-parts li img {
   width: 271px;
   height: 179.538px;
 }
-.parts .spec-parts .parts-ul li .frame-158 .text-1 {
+.parts .spec-parts li .frame-158 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.parts .spec-parts li .frame-158 .text-1 {
   color: #19242D;
   font-family: "Exo", sans-serif;
   font-size: 14.608px;
@@ -465,10 +471,16 @@ body {
   line-height: normal;
   align-self: stretch;
 }
-.parts .spec-parts .parts-ul li .frame-158 .text-1 p {
+.parts .spec-parts li .frame-158 .text-1 p {
   margin-bottom: 0px;
 }
-.parts .spec-parts .parts-ul li .frame-158 .frame-159 .serial-number {
+.parts .spec-parts li .frame-158 .frame-159 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+.parts .spec-parts li .frame-158 .frame-159 .serial-number {
   color: #999;
   font-family: "Roboto";
   font-size: 12.521px;
@@ -476,7 +488,7 @@ body {
   font-weight: 400;
   line-height: normal;
 }
-.parts .spec-parts .parts-ul li .frame-158 .frame-159 .price {
+.parts .spec-parts li .frame-158 .frame-159 .price a {
   color: #5FB865;
   text-align: right;
   font-family: Exo 2;
@@ -484,6 +496,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  text-decoration: none;
 }
 .parts .fade-btn {
   top: 23px;

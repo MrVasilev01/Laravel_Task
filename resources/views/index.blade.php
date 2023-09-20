@@ -6,7 +6,11 @@
     <title>LANDING PAGE</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+   
 </head>
 <body id="body">
     <div class="navbar">
@@ -36,15 +40,22 @@
                             <path d="M6.54209 7.7C6.54209 7.24437 6.91146 6.875 7.36709 6.875H16.1671C16.6227 6.875 16.9921 7.24437 16.9921 7.7C16.9921 8.15563 16.6227 8.525 16.1671 8.525H7.36709C6.91146 8.525 6.54209 8.15563 6.54209 7.7Z" fill="white"/>
                             <path d="M6.54209 11.55C6.54209 11.0944 6.91146 10.725 7.36709 10.725H13.4171C13.8727 10.725 14.2421 11.0944 14.2421 11.55C14.2421 12.0056 13.8727 12.375 13.4171 12.375H7.36709C6.91146 12.375 6.54209 12.0056 6.54209 11.55Z" fill="white"/>
                         </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 23 24" fill="none">
-                        <path d="M9.45746 0.88208C8.34104 0.88208 7.43601 1.78711 7.43601 2.90353C7.43601 4.01995 8.34104 4.92499 9.45746 4.92499H14.0779C15.1944 4.92499 16.0994 4.01995 16.0994 2.90353C16.0994 1.78711 15.1944 0.88208 14.0779 0.88208H9.45746Z" fill="white"/>
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.44833 9.41732C3.36279 9.57435 2.76623 9.87015 2.37808 10.3673C1.98993 10.8644 1.84765 11.5149 1.95858 12.6061C2.07105 13.7124 2.42921 15.1509 2.92914 17.1507C3.24771 18.4249 3.4752 19.3309 3.73515 20.0133C3.98957 20.6811 4.2535 21.0732 4.60975 21.3513C4.966 21.6295 5.41038 21.7904 6.11997 21.8753C6.84499 21.962 7.77911 21.963 9.0926 21.963H14.4416C15.7551 21.963 16.6892 21.962 17.4142 21.8753C18.1238 21.7904 18.5682 21.6295 18.9244 21.3513C19.2807 21.0732 19.5446 20.6811 19.799 20.0133C20.059 19.3309 20.2865 18.4249 20.6051 17.1507C21.105 15.1509 21.4631 13.7124 21.5756 12.6061C21.6865 11.5149 21.5443 10.8644 21.1561 10.3673C20.7679 9.87014 20.1714 9.57435 19.0858 9.41732C17.9853 9.25811 16.5028 9.25668 14.4416 9.25668H9.0926C7.03133 9.25668 5.54886 9.25811 4.44833 9.41732ZM9.0432 8.10156H14.491C16.4922 8.10155 18.0583 8.10154 19.2512 8.2741C20.4689 8.45025 21.4141 8.82082 22.0666 9.65639C22.719 10.492 22.8492 11.4989 22.7248 12.7229C22.6029 13.9219 22.2231 15.4412 21.7378 17.3825L21.7165 17.4676C21.4091 18.6972 21.1658 19.6703 20.8785 20.4245C20.5827 21.2008 20.2191 21.806 19.6353 22.2618C19.0515 22.7176 18.3762 22.9236 17.5514 23.0222C16.7498 23.1181 15.7467 23.1181 14.4791 23.1181H9.05511C7.78748 23.1181 6.78434 23.1181 5.98282 23.0222C5.15798 22.9236 4.48264 22.7176 3.89887 22.2618C3.31511 21.806 2.95146 21.2008 2.65571 20.4245C2.36832 19.6701 2.12502 18.6969 1.81756 17.467L1.79654 17.3829C1.31116 15.4415 0.931296 13.922 0.809391 12.7229C0.684954 11.4989 0.815201 10.492 1.46761 9.65641C2.12002 8.82082 3.06529 8.45025 4.28295 8.2741C5.47583 8.10154 7.04199 8.10155 9.0432 8.10156Z" fill="white"/>
-                        <path d="M15.9036 3.77253C16.0292 3.50928 16.0994 3.21462 16.0994 2.90353C16.0994 2.59391 16.0297 2.30053 15.9053 2.03822C16.6948 2.04395 17.3103 2.0802 17.8596 2.29489C18.5159 2.55141 19.0867 2.98746 19.5069 3.55319C19.9308 4.12391 20.1297 4.85544 20.4036 5.8623L20.4572 6.05909L21.0494 9.48168C20.5773 9.15602 19.9686 8.9625 19.1812 8.84751L18.7639 6.4356C18.4361 5.23462 18.3171 4.85721 18.1159 4.58624C17.8897 4.28161 17.5822 4.04681 17.2289 3.90869C16.975 3.80946 16.6682 3.78026 15.9036 3.77253Z" fill="white"/>
-                        <path d="M7.63006 2.03822C7.50563 2.30053 7.43601 2.59391 7.43601 2.90353C7.43601 3.21462 7.50628 3.50929 7.63181 3.77254C6.8673 3.78027 6.56052 3.80946 6.30662 3.90869C5.95322 4.04681 5.64582 4.28161 5.41959 4.58624C5.21836 4.85721 5.09938 5.23462 4.77158 6.4356L4.35424 8.84741C3.56698 8.96233 2.95824 9.15572 2.48615 9.48115L3.07831 6.05909L3.1319 5.86231C3.40575 4.85545 3.60472 4.12391 4.02857 3.55319C4.44869 2.98746 5.01958 2.55141 5.67589 2.29489C6.22518 2.08021 6.84054 2.04397 7.63006 2.03822Z" fill="white"/>
-                        <path d="M8.01357 13.2996C8.01357 12.8211 7.62569 12.4332 7.14723 12.4332C6.66877 12.4332 6.28089 12.8211 6.28089 13.2996V17.9201C6.28089 18.3985 6.66877 18.7864 7.14723 18.7864C7.62569 18.7864 8.01357 18.3985 8.01357 17.9201V13.2996Z" fill="white"/>
-                        <path d="M16.3882 12.4332C16.8666 12.4332 17.2545 12.8211 17.2545 13.2996V17.9201C17.2545 18.3985 16.8666 18.7864 16.3882 18.7864C15.9097 18.7864 15.5218 18.3985 15.5218 17.9201V13.2996C15.5218 12.8211 15.9097 12.4332 16.3882 12.4332Z" fill="white"/>
-                        <path d="M12.634 13.2996C12.634 12.8211 12.2461 12.4332 11.7677 12.4332C11.2892 12.4332 10.9014 12.8211 10.9014 13.2996V17.9201C10.9014 18.3985 11.2892 18.7864 11.7677 18.7864C12.2461 18.7864 12.634 18.3985 12.634 17.9201V13.2996Z" fill="white"/>
-                        </svg>
+
+                        <button type="button" class="btn" data-toggle="dropdown">
+                            <a href="{{ url('/cart') }}" style="text-decoration: none;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 23 24" fill="none">
+                                    <path d="M9.45746 0.88208C8.34104 0.88208 7.43601 1.78711 7.43601 2.90353C7.43601 4.01995 8.34104 4.92499 9.45746 4.92499H14.0779C15.1944 4.92499 16.0994 4.01995 16.0994 2.90353C16.0994 1.78711 15.1944 0.88208 14.0779 0.88208H9.45746Z" fill="white"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.44833 9.41732C3.36279 9.57435 2.76623 9.87015 2.37808 10.3673C1.98993 10.8644 1.84765 11.5149 1.95858 12.6061C2.07105 13.7124 2.42921 15.1509 2.92914 17.1507C3.24771 18.4249 3.4752 19.3309 3.73515 20.0133C3.98957 20.6811 4.2535 21.0732 4.60975 21.3513C4.966 21.6295 5.41038 21.7904 6.11997 21.8753C6.84499 21.962 7.77911 21.963 9.0926 21.963H14.4416C15.7551 21.963 16.6892 21.962 17.4142 21.8753C18.1238 21.7904 18.5682 21.6295 18.9244 21.3513C19.2807 21.0732 19.5446 20.6811 19.799 20.0133C20.059 19.3309 20.2865 18.4249 20.6051 17.1507C21.105 15.1509 21.4631 13.7124 21.5756 12.6061C21.6865 11.5149 21.5443 10.8644 21.1561 10.3673C20.7679 9.87014 20.1714 9.57435 19.0858 9.41732C17.9853 9.25811 16.5028 9.25668 14.4416 9.25668H9.0926C7.03133 9.25668 5.54886 9.25811 4.44833 9.41732ZM9.0432 8.10156H14.491C16.4922 8.10155 18.0583 8.10154 19.2512 8.2741C20.4689 8.45025 21.4141 8.82082 22.0666 9.65639C22.719 10.492 22.8492 11.4989 22.7248 12.7229C22.6029 13.9219 22.2231 15.4412 21.7378 17.3825L21.7165 17.4676C21.4091 18.6972 21.1658 19.6703 20.8785 20.4245C20.5827 21.2008 20.2191 21.806 19.6353 22.2618C19.0515 22.7176 18.3762 22.9236 17.5514 23.0222C16.7498 23.1181 15.7467 23.1181 14.4791 23.1181H9.05511C7.78748 23.1181 6.78434 23.1181 5.98282 23.0222C5.15798 22.9236 4.48264 22.7176 3.89887 22.2618C3.31511 21.806 2.95146 21.2008 2.65571 20.4245C2.36832 19.6701 2.12502 18.6969 1.81756 17.467L1.79654 17.3829C1.31116 15.4415 0.931296 13.922 0.809391 12.7229C0.684954 11.4989 0.815201 10.492 1.46761 9.65641C2.12002 8.82082 3.06529 8.45025 4.28295 8.2741C5.47583 8.10154 7.04199 8.10155 9.0432 8.10156Z" fill="white"/>
+                                    <path d="M15.9036 3.77253C16.0292 3.50928 16.0994 3.21462 16.0994 2.90353C16.0994 2.59391 16.0297 2.30053 15.9053 2.03822C16.6948 2.04395 17.3103 2.0802 17.8596 2.29489C18.5159 2.55141 19.0867 2.98746 19.5069 3.55319C19.9308 4.12391 20.1297 4.85544 20.4036 5.8623L20.4572 6.05909L21.0494 9.48168C20.5773 9.15602 19.9686 8.9625 19.1812 8.84751L18.7639 6.4356C18.4361 5.23462 18.3171 4.85721 18.1159 4.58624C17.8897 4.28161 17.5822 4.04681 17.2289 3.90869C16.975 3.80946 16.6682 3.78026 15.9036 3.77253Z" fill="white"/>
+                                    <path d="M7.63006 2.03822C7.50563 2.30053 7.43601 2.59391 7.43601 2.90353C7.43601 3.21462 7.50628 3.50929 7.63181 3.77254C6.8673 3.78027 6.56052 3.80946 6.30662 3.90869C5.95322 4.04681 5.64582 4.28161 5.41959 4.58624C5.21836 4.85721 5.09938 5.23462 4.77158 6.4356L4.35424 8.84741C3.56698 8.96233 2.95824 9.15572 2.48615 9.48115L3.07831 6.05909L3.1319 5.86231C3.40575 4.85545 3.60472 4.12391 4.02857 3.55319C4.44869 2.98746 5.01958 2.55141 5.67589 2.29489C6.22518 2.08021 6.84054 2.04397 7.63006 2.03822Z" fill="white"/>
+                                    <path d="M8.01357 13.2996C8.01357 12.8211 7.62569 12.4332 7.14723 12.4332C6.66877 12.4332 6.28089 12.8211 6.28089 13.2996V17.9201C6.28089 18.3985 6.66877 18.7864 7.14723 18.7864C7.62569 18.7864 8.01357 18.3985 8.01357 17.9201V13.2996Z" fill="white"/>
+                                    <path d="M16.3882 12.4332C16.8666 12.4332 17.2545 12.8211 17.2545 13.2996V17.9201C17.2545 18.3985 16.8666 18.7864 16.3882 18.7864C15.9097 18.7864 15.5218 18.3985 15.5218 17.9201V13.2996C15.5218 12.8211 15.9097 12.4332 16.3882 12.4332Z" fill="white"/>
+                                    <path d="M12.634 13.2996C12.634 12.8211 12.2461 12.4332 11.7677 12.4332C11.2892 12.4332 10.9014 12.8211 10.9014 13.2996V17.9201C10.9014 18.3985 11.2892 18.7864 11.7677 18.7864C12.2461 18.7864 12.634 18.3985 12.634 17.9201V13.2996Z" fill="white"/>
+                                </svg>
+                                <span class="badge badge-pill badge-danger">{{ count((array) session('cart')) }}</span>
+                            </a>
+                        </button>
+
                         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 24 22" fill="none">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7671 3.64764C9.56783 1.08461 5.89281 0.292528 3.13726 2.63949C0.381698 4.98645 -0.00624777 8.91043 2.15771 11.6862C3.9569 13.994 9.40185 18.8615 11.1864 20.437C11.386 20.6132 11.4859 20.7013 11.6023 20.7359C11.7039 20.7661 11.8151 20.7661 11.9168 20.7359C12.0333 20.7013 12.133 20.6132 12.3327 20.437C14.1173 18.8615 19.5622 13.994 21.3614 11.6862C23.5254 8.91043 23.1847 4.96176 20.3818 2.63949C17.5789 0.317217 13.9664 1.08461 11.7671 3.64764Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                           </svg>
@@ -87,7 +98,7 @@
         <div class="rectangle d-flex justify-content-center align-items-center">
             <div id="rect-2" class="frame-77 d-flex justify-content-start align-items-center">
                 <div class="frame-2-2 d-flex justify-content-start align-items-center position-relative">
-                    <button class="btn btn-outline-dark d-flex justify-content-center align-items-center position-absolute">
+                    <button class="btn-2 btn-outline-dark d-flex justify-content-center align-items-center position-absolute">
                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 7 13" fill="none">
                             <path d="M0.288944 12.5739C0.669493 12.9545 1.28654 12.9545 1.66708 12.5739L6.42981 7.80655C7.19031 7.04527 7.19001 5.81176 6.42923 5.05088L1.66357 0.285322C1.28303 -0.095315 0.665984 -0.095315 0.285426 0.285322C-0.0951426 0.665861 -0.0951426 1.28291 0.285426 1.66345L4.36428 5.74228C4.74492 6.12282 4.74482 6.73987 4.36428 7.12041L0.288944 11.1958C-0.0916246 11.5764 -0.0916245 12.1934 0.288944 12.5739Z" fill="white"/>
                         </svg>
@@ -347,22 +358,27 @@
             <div class="spec-text ">Специални предложения:</div>
 
             <ul class="parts-ul d-flex flex-row">
-                @foreach ($products as $product)
-                    <li class="d-inline-flex flex-column align-items-start">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        @foreach ($products as $product)
+                        <div class="swiper-slide">
+                            <li class="d-inline-flex flex-column align-items-start">
+                                <img src="{{ asset('img/parts_b') }}/{{ $product->image }}" alt="" onclick="">
 
-                        <img src="{{ asset('img/parts_b') }}/{{ $product->image }}" alt="">
-
-                        <div class="frame-158">
-                            <div class="text-1"><p>{{ $product->name }}</p> {{ $product->description }}</div>
-                            <div class="frame-159 d-flex flex-row justify-content-between align-items-end">
-                                <div class="serial-number">Кат. №: s_167232784</div>
-                                <div class="price">{{ $product->price }}</div>
-                            </div>
+                                <div class="frame-158">
+                                    <div class="text-1"><p>{{ $product->name }}</p></div>
+                                    <div class="frame-159">
+                                        <div class="serial-number">Кат. №:{{ $product->description }}</div>
+                                        <div class="price"><a href="{{ route('add.to.cart', $product->id) }}" role="button">{{ $product->price }} лв.</a></div>
+                                    </div>
+                                </div>
+                            </li>
                         </div>
-
-                    </li>
-
-                @endforeach
+                        @endforeach
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
 
                 <!-- <li class="d-inline-flex flex-column align-items-start">
                     <img src="parts_b/part_1.png" alt="">
@@ -414,16 +430,15 @@
                         </div>
                     </div>
                 </li> -->
-
             </ul>
 
-            <div class="fade-btn d-flex justify-content-end align-items-center position-absolute">
+            <!-- <div class="fade-btn d-flex justify-content-end align-items-center position-absolute">
                 <button class="btn">
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 0 12 23" fill="none">
                         <path d="M0.495332 22.0333C1.1477 22.6857 2.2055 22.6857 2.85785 22.0333L11.0225 13.8606C12.3262 12.5556 12.3257 10.441 11.0215 9.13659L2.85184 0.967064C2.19948 0.314543 1.14169 0.314543 0.489301 0.967064C-0.163102 1.61942 -0.163102 2.67721 0.489301 3.32957L7.48162 10.3219C8.13414 10.9742 8.13397 12.032 7.48162 12.6844L0.495332 19.6708C-0.157071 20.3231 -0.157071 21.3809 0.495332 22.0333Z" fill="#008AEE"/>
                         </svg>
                 </button>
-            </div>
+            </div> -->
         </div>
     
     </div>
@@ -433,42 +448,58 @@
             <div class="spec-text ">Последни оферти и запитвания:</div>
 
             <ul class="parts-ul d-flex flex-row justify-content-end">
-                <li class="d-inline-flex flex-column align-items-start">
-                    <img src="{{ asset('img/parts_g') }}/part_1.png" alt="">
-                    <div class="frame-158">
-                        <div class="text-1"><p class="offer">Фар за Audi A5 Coupe I</p> (06.2007 - 01.2017)</div>
+                <div class="swiper mySwiper-2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <li class="d-inline-flex flex-column align-items-start">
+                                <img src="{{ asset('img/parts_g') }}/part_1.png" alt="">
+                                <div class="frame-158">
+                                    <div class="text-1"><p class="offer">Фар за Audi A5 Coupe I</p> (06.2007 - 01.2017)</div>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="swiper-slide">
+                            <li class="d-inline-flex flex-column align-items-start">
+                                <img src="{{ asset('img/parts_g') }}/part_1.png" alt="">
+                                <div class="frame-158">
+                                    <div class="text-1"><p class="sell">Фар за Audi A5 Coupe I</p> (06.2007 - 01.2017)</div>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="swiper-slide">
+                            <li class="d-inline-flex flex-column align-items-start">
+                                <img src="{{ asset('img/parts_g') }}/part_2.png" alt="">
+                                <div class="frame-158">
+                                    <div class="text-1"><p class="offer">Фар за Audi A5 Coupe I</p> (06.2007 - 01.2017)</div>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="swiper-slide">
+                            <li class="d-inline-flex flex-column align-items-start">
+                                <img src="{{ asset('img/parts_g') }}/part_1.png" alt="">
+                                <div class="frame-158">
+                                    <div class="text-1"><p class="sell">Фар за Audi A5 Coupe I</p> (06.2007 - 01.2017)</div>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="swiper-slide">
+                            <li class="d-inline-flex flex-column align-items-start">
+                                <img src="{{ asset('img/parts_g') }}/part_2.png" alt="">
+                                <div class="frame-158">
+                                    <div class="text-1"><p class="offer">Фар за Audi A5 Coupe I</p> (06.2007 - 01.2017)</div>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="swiper-slide">
+                            <li class="d-inline-flex flex-column align-items-start">
+                                <img src="{{ asset('img/parts_g') }}/part_1.png" alt="">
+                                <div class="frame-158">
+                                    <div class="text-1"><p class="sell">Фар за Audi A5 Coupe I</p>  (06.2007 -01.2017)</div>
+                                </div>
+                            </li>
+                        </div>
                     </div>
-                </li>
-                <li class="d-inline-flex flex-column align-items-start">
-                    <img src="{{ asset('img/parts_g') }}/part_1.png" alt="">
-                    <div class="frame-158">
-                        <div class="text-1"><p class="sell">Фар за Audi A5 Coupe I</p> (06.2007 - 01.2017)</div>
-                    </div>
-                </li>
-                <li class="d-inline-flex flex-column align-items-start">
-                    <img src="{{ asset('img/parts_g') }}/part_2.png" alt="">
-                    <div class="frame-158">
-                        <div class="text-1"><p class="offer">Фар за Audi A5 Coupe I</p> (06.2007 - 01.2017)</div>
-                    </div>
-                </li>
-                <li class="d-inline-flex flex-column align-items-start">
-                    <img src="{{ asset('img/parts_g') }}/part_1.png" alt="">
-                    <div class="frame-158">
-                        <div class="text-1"><p class="sell">Фар за Audi A5 Coupe I</p> (06.2007 - 01.2017)</div>
-                    </div>
-                </li>
-                <li class="d-inline-flex flex-column align-items-start">
-                    <img src="{{ asset('img/parts_g') }}/part_2.png" alt="">
-                    <div class="frame-158">
-                        <div class="text-1"><p class="offer">Фар за Audi A5 Coupe I</p> (06.2007 - 01.2017)</div>
-                    </div>
-                </li>
-                <li class="d-inline-flex flex-column align-items-start">
-                    <img src="{{ asset('img/parts_g') }}/part_1.png" alt="">
-                    <div class="frame-158">
-                        <div class="text-1"><p class="sell">Фар за Audi A5 Coupe I</p>  (06.2007 -01.2017)</div>
-                    </div>
-                </li>
+                </div>
             </ul>
         </div>
 
@@ -891,6 +922,8 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
     <script src="{{ asset('js/main.js') }}"></script>
 </body>

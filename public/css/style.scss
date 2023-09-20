@@ -219,7 +219,7 @@ body{
             }
         }
 
-        .btn{ 
+        .btn-2{ 
             z-index: 2;
             top: 50%;
             right: 5.6%;
@@ -479,36 +479,48 @@ body{
             margin-bottom: 0;
             gap: 32px;
             overflow: hidden;
-            li{
-                list-style-type: none;
+        }
+
+        li{
+            list-style-type: none;
+            gap: 3px;
+            
+            img{
+                width: 271px;
+                height: 179.538px;
+            }
+            .frame-158{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
                 
-                img{
-                    width: 271px;
-                    height: 179.538px;
-                }
-                .frame-158{
-                    .text-1{
-                        color: #19242D;
-                        font-family: 'Exo', sans-serif;
-                        font-size: 14.608px;
-                        font-style: normal;
-                        font-weight: 700;
-                        line-height: normal;
-                        align-self: stretch;
-                        p{
-                            margin-bottom: 0px;
-                        }
+                .text-1{
+                    color: #19242D;
+                    font-family: 'Exo', sans-serif;
+                    font-size: 14.608px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    align-self: stretch;
+                    p{
+                        margin-bottom: 0px;
                     }
-                    .frame-159{
-                        .serial-number{
-                            color: #999;
-                            font-family: 'Roboto';
-                            font-size: 12.521px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: normal;
-                        }
-                        .price{
+                }
+                .frame-159{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: end;
+                    .serial-number{
+                        color: #999;
+                        font-family: 'Roboto';
+                        font-size: 12.521px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                    .price{
+                        a{
                             color: #5FB865;
                             text-align: right;
                             font-family: Exo 2;
@@ -516,11 +528,12 @@ body{
                             font-style: normal;
                             font-weight: 700;
                             line-height: normal;
+                            text-decoration: none;
                         }
                     }
                 }
-
             }
+
         }
     }
 
